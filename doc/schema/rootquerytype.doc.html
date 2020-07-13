@@ -80,6 +80,21 @@
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
     <h4 class="slds-text-title--caps slds-p-around--medium">Objects</h4>
     <ul>
+        <li  title="Applicant">
+            <a href="applicant.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Applicant
+            </a>
+        </li>
+        <li  title="Bank">
+            <a href="bank.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Bank
+            </a>
+        </li>
+        <li  title="BankAccount">
+            <a href="bankaccount.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                BankAccount
+            </a>
+        </li>
         <li  title="PreMFA">
             <a href="premfa.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PreMFA
@@ -130,6 +145,11 @@
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
     <h4 class="slds-text-title--caps slds-p-around--medium">Input Objects</h4>
     <ul>
+        <li  title="CreateBankAccountData">
+            <a href="createbankaccountdata.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                CreateBankAccountData
+            </a>
+        </li>
         <li  title="DisableMFAData">
             <a href="disablemfadata.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 DisableMFAData
@@ -203,7 +223,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">type</span> <span class="identifier">RootQueryType</span> {</li><li></li><li><span class="tab"><span class="meta">session</span>: <a class="support type" href="session.doc.html">Session</a> </span></li><li></li><li><span class="tab"><span class="meta">totpSecret</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">RootQueryType</span> {</li><li></li><li><span class="tab"><span class="comment line"># Arguments</span></span></li><li><span class="tab"><span class="comment line">#   <strong>language</strong>: [<strong>Not documented</strong>]</span></span></li><li><span class="tab"><span class="meta">banks</span>(<span class="meta">language</span>: <a class="support type" href="string.doc.html">String</a>!): [<a class="support type" href="bank.doc.html">Bank</a>] </span></li><li></li><li><span class="tab"><span class="meta">session</span>: <a class="support type" href="session.doc.html">Session</a> </span></li><li></li><li><span class="tab"><span class="meta">totpSecret</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>

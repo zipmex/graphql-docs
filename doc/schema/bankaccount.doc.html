@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="./styles/graphdoc.css" />
-    <title>SignUpData</title>
+    <title>BankAccount</title>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700" rel="stylesheet"><link type="text/css" rel="stylesheet" href="./assets/code.css" /><link type="text/css" rel="stylesheet" href="./assets/require-by.css" />
 </head>
 <body class="slds-scrollable--y">
@@ -90,7 +90,7 @@
                 Bank
             </a>
         </li>
-        <li  title="BankAccount">
+        <li class="slds-is-active" title="BankAccount">
             <a href="bankaccount.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 BankAccount
             </a>
@@ -170,7 +170,7 @@
                 SignInData
             </a>
         </li>
-        <li class="slds-is-active" title="SignUpData">
+        <li  title="SignUpData">
             <a href="signupdata.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 SignUpData
             </a>
@@ -210,8 +210,8 @@
         </div>
     </div>
     <div class="container">
-        <p class="slds-text-title--caps slds-text-color--weak">INPUT_OBJECT</p>
-        <h1 class="slds-text-heading--large">SignUpData</h1>
+        <p class="slds-text-title--caps slds-text-color--weak">OBJECT</p>
+        <h1 class="slds-text-heading--large">BankAccount</h1>
         <div class="slds-text-body--regular"></div>
     </div>
 </section>
@@ -223,7 +223,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:28px"><li><span class="keyword operator ts">input</span> <span class="identifier">SignUpData</span> {</li><li><span class="tab"><li><span class="tab"><span class="meta">email</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">invitationCode</span>: <a class="support type" href="string.doc.html">String</a></span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">password</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">preferredLanguage</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">signupHostname</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">signupPlatform</span>: <a class="support type" href="string.doc.html">String</a>!</span></li></span></li><li><span class="tab"><li><span class="tab"><span class="meta">termsAccepted</span>: <a class="support type" href="boolean.doc.html">Boolean</a>!</span></li></span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">BankAccount</span> {</li><li></li><li><span class="tab"><span class="meta">accountName</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">accountNumber</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">bankAccountId</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">bankCode</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">branchCode</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="meta">userId</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>

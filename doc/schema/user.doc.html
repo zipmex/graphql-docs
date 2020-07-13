@@ -80,6 +80,21 @@
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
     <h4 class="slds-text-title--caps slds-p-around--medium">Objects</h4>
     <ul>
+        <li  title="Applicant">
+            <a href="applicant.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Applicant
+            </a>
+        </li>
+        <li  title="Bank">
+            <a href="bank.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                Bank
+            </a>
+        </li>
+        <li  title="BankAccount">
+            <a href="bankaccount.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                BankAccount
+            </a>
+        </li>
         <li  title="PreMFA">
             <a href="premfa.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 PreMFA
@@ -130,6 +145,11 @@
 <div class="slds-grid slds-grid--vertical slds-navigation-list--vertical">
     <h4 class="slds-text-title--caps slds-p-around--medium">Input Objects</h4>
     <ul>
+        <li  title="CreateBankAccountData">
+            <a href="createbankaccountdata.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
+                CreateBankAccountData
+            </a>
+        </li>
         <li  title="DisableMFAData">
             <a href="disablemfadata.doc.html" class="slds-navigation-list--vertical__action slds-text-link--reset slds-truncate">
                 DisableMFAData
@@ -203,7 +223,7 @@
             </a>
             GraphQL Schema definition
         </h2>
-        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">User</span> {</li><li></li><li><span class="tab"><span class="meta">email</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">invitationCode</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="meta">isEmailVerified</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="meta">mfaEnabled</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="meta">preferredLanguage</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">signupHostname</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">signupPlatform</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">userId</span>: <a class="support type" href="id.doc.html">ID</a> </span></li><li>}</li></ul></code>
+        <code class="highlight"><ul class="code" style="padding-left:42px"><li><span class="keyword operator ts">type</span> <span class="identifier">User</span> {</li><li></li><li><span class="tab"><span class="meta">applicant</span>: <a class="support type" href="applicant.doc.html">Applicant</a>! </span></li><li></li><li><span class="tab"><span class="meta">email</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">invitationCode</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="meta">isEmailVerified</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="meta">isMobileNumberVerified</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="meta">mfaEnabled</span>: <a class="support type" href="boolean.doc.html">Boolean</a>! </span></li><li></li><li><span class="tab"><span class="meta">mobileNumber</span>: <a class="support type" href="string.doc.html">String</a> </span></li><li></li><li><span class="tab"><span class="meta">preferredLanguage</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">signupHostname</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">signupPlatform</span>: <a class="support type" href="string.doc.html">String</a>! </span></li><li></li><li><span class="tab"><span class="meta">userId</span>: <a class="support type" href="id.doc.html">ID</a> </span></li><li>}</li></ul></code>
     </div>
 </section>
 <section>
